@@ -1,0 +1,397 @@
+,id,city_name_en,governorate_name_en
+0,1,15 May,Cairo
+1,1,Al Azbakeyah,Cairo
+2,1,Al Basatin,Cairo
+3,1,Tebin,Cairo
+4,1,El-Khalifa,Cairo
+5,1,El darrasa,Cairo
+6,1,Aldarb Alahmar,Cairo
+7,1,Zawya al-Hamra,Cairo
+8,1,El-Zaytoun,Cairo
+9,1,Sahel,Cairo
+10,1,El Salam,Cairo
+11,1,Sayeda Zeinab,Cairo
+12,1,El Sharabeya,Cairo
+13,1,Shorouk,Cairo
+14,1,El Daher,Cairo
+15,1,Ataba,Cairo
+16,1,New Cairo,Cairo
+17,1,El Marg,Cairo
+18,1,Ezbet el Nakhl,Cairo
+19,1,Matareya,Cairo
+20,1,Maadi,Cairo
+21,1,Maasara,Cairo
+22,1,Mokattam,Cairo
+23,1,Manyal,Cairo
+24,1,Mosky,Cairo
+25,1,Nozha,Cairo
+26,1,Waily,Cairo
+27,1,Bab al-Shereia,Cairo
+28,1,Bolaq,Cairo
+29,1,Garden City,Cairo
+30,1,Hadayek El-Kobba,Cairo
+31,1,Helwan,Cairo
+32,1,Dar Al Salam,Cairo
+33,1,Shubra,Cairo
+34,1,Tura,Cairo
+35,1,Abdeen,Cairo
+36,1,Abaseya,Cairo
+37,1,Ain Shams,Cairo
+38,1,Nasr City,Cairo
+39,1,New Heliopolis,Cairo
+40,1,Masr Al Qadima,Cairo
+41,1,Mansheya Nasir,Cairo
+42,1,Badr City,Cairo
+43,1,Obour City,Cairo
+44,1,Cairo Downtown,Cairo
+45,1,Zamalek,Cairo
+46,1,Kasr El Nile,Cairo
+47,1,Rehab,Cairo
+48,1,Katameya,Cairo
+49,1,Madinty,Cairo
+50,1,Rod Alfarag,Cairo
+51,1,Sheraton,Cairo
+52,1,El-Gamaleya,Cairo
+53,1,10th of Ramadan City,Cairo
+54,1,Helmeyat Alzaytoun,Cairo
+55,1,New Nozha,Cairo
+56,1,Capital New,Cairo
+57,2,Giza,Giza
+58,2,Sixth of October,Giza
+59,2,Cheikh Zayed,Giza
+60,2,Hawamdiyah,Giza
+61,2,Al Badrasheen,Giza
+62,2,Saf,Giza
+63,2,Atfih,Giza
+64,2,Al Ayat,Giza
+65,2,Al-Bawaiti,Giza
+66,2,ManshiyetAl Qanater,Giza
+67,2,Oaseem,Giza
+68,2,Kerdasa,Giza
+69,2,Abu Nomros,Giza
+70,2,Kafr Ghati,Giza
+71,2,Manshiyet Al Bakari,Giza
+72,2,Dokki,Giza
+73,2,Agouza,Giza
+74,2,Haram,Giza
+75,2,Warraq,Giza
+76,2,Imbaba,Giza
+77,2,Boulaq Dakrour,Giza
+78,2,Al Wahat Al Baharia,Giza
+79,2,Omraneya,Giza
+80,2,Moneeb,Giza
+81,2,Bin Alsarayat,Giza
+82,2,Kit Kat,Giza
+83,2,Mohandessin,Giza
+84,2,Faisal,Giza
+85,2,Abu Rawash,Giza
+86,2,Hadayek Alahram,Giza
+87,2,Haraneya,Giza
+88,2,Hadayek October,Giza
+89,2,Saft Allaban,Giza
+90,2,Smart Village,Giza
+91,2,Ard Ellwaa,Giza
+92,3,Abu Qir,Alexandria
+93,3,Al Ibrahimeyah,Alexandria
+94,3,Azarita,Alexandria
+95,3,Anfoushi,Alexandria
+96,3,Dekheila,Alexandria
+97,3,El Soyof,Alexandria
+98,3,Ameria,Alexandria
+99,3,El Labban,Alexandria
+100,3,Al Mafrouza,Alexandria
+101,3,El Montaza,Alexandria
+102,3,Mansheya,Alexandria
+103,3,Naseria,Alexandria
+104,3,Ambrozo,Alexandria
+105,3,Bab Sharq,Alexandria
+106,3,Bourj Alarab,Alexandria
+107,3,Stanley,Alexandria
+108,3,Smouha,Alexandria
+109,3,Sidi Bishr,Alexandria
+110,3,Shads,Alexandria
+111,3,Gheet Alenab,Alexandria
+112,3,Fleming,Alexandria
+113,3,Victoria,Alexandria
+114,3,Camp Shizar,Alexandria
+115,3,Karmooz,Alexandria
+116,3,Mahta Alraml,Alexandria
+117,3,Mina El-Basal,Alexandria
+118,3,Asafra,Alexandria
+119,3,Agamy,Alexandria
+120,3,Bakos,Alexandria
+121,3,Boulkly,Alexandria
+122,3,Cleopatra,Alexandria
+123,3,Glim,Alexandria
+124,3,Al Mamurah,Alexandria
+125,3,Al Mandara,Alexandria
+126,3,Moharam Bek,Alexandria
+127,3,Elshatby,Alexandria
+128,3,Sidi Gaber,Alexandria
+129,3,North Coast/sahel,Alexandria
+130,3,Alhadra,Alexandria
+131,3,Alattarin,Alexandria
+132,3,Sidi Kerir,Alexandria
+133,3,Elgomrok,Alexandria
+134,3,Al Max,Alexandria
+135,3,Marina,Alexandria
+136,4,Mansoura,Dakahlia
+137,4,Talkha,Dakahlia
+138,4,Mitt Ghamr,Dakahlia
+139,4,Dekernes,Dakahlia
+140,4,Aga,Dakahlia
+141,4,Menia El Nasr,Dakahlia
+142,4,Sinbillawin,Dakahlia
+143,4,El Kurdi,Dakahlia
+144,4,Bani Ubaid,Dakahlia
+145,4,Al Manzala,Dakahlia
+146,4,tami al'amdid,Dakahlia
+147,4,aljamalia,Dakahlia
+148,4,Sherbin,Dakahlia
+149,4,Mataria,Dakahlia
+150,4,Belqas,Dakahlia
+151,4,Meet Salsil,Dakahlia
+152,4,Gamasa,Dakahlia
+153,4,Mahalat Damana,Dakahlia
+154,4,Nabroh,Dakahlia
+155,5,Hurghada,Red Sea
+156,5,Ras Ghareb,Red Sea
+157,5,Safaga,Red Sea
+158,5,El Qusiar,Red Sea
+159,5,Marsa Alam,Red Sea
+160,5,Shalatin,Red Sea
+161,5,Halaib,Red Sea
+162,5,Aldahar,Red Sea
+163,6,Damanhour,Beheira
+164,6,Kafr El Dawar,Beheira
+165,6,Rashid,Beheira
+166,6,Edco,Beheira
+167,6,Abu al-Matamir,Beheira
+168,6,Abu Homs,Beheira
+169,6,Delengat,Beheira
+170,6,Mahmoudiyah,Beheira
+171,6,Rahmaniyah,Beheira
+172,6,Itai Baroud,Beheira
+173,6,Housh Eissa,Beheira
+174,6,Shubrakhit,Beheira
+175,6,Kom Hamada,Beheira
+176,6,Badr,Beheira
+177,6,Wadi Natrun,Beheira
+178,6,New Nubaria,Beheira
+179,6,Alnoubareya,Beheira
+180,7,Fayoum,Fayoum
+181,7,Fayoum El Gedida,Fayoum
+182,7,Tamiya,Fayoum
+183,7,Snores,Fayoum
+184,7,Etsa,Fayoum
+185,7,Epschway,Fayoum
+186,7,Yusuf El Sediaq,Fayoum
+187,7,Hadqa,Fayoum
+188,7,Atsa,Fayoum
+189,7,Algamaa,Fayoum
+190,7,Sayala,Fayoum
+191,8,Tanta,Gharbiya
+192,8,Al Mahalla Al Kobra,Gharbiya
+193,8,Kafr El Zayat,Gharbiya
+194,8,Zefta,Gharbiya
+195,8,El Santa,Gharbiya
+196,8,Qutour,Gharbiya
+197,8,Basion,Gharbiya
+198,8,Samannoud,Gharbiya
+199,9,Ismailia,Ismailia
+200,9,Fayed,Ismailia
+201,9,Qantara Sharq,Ismailia
+202,9,Qantara Gharb,Ismailia
+203,9,El Tal El Kabier,Ismailia
+204,9,Abu Sawir,Ismailia
+205,9,Kasasien El Gedida,Ismailia
+206,9,Nefesha,Ismailia
+207,9,Sheikh Zayed,Ismailia
+208,10,Shbeen El Koom,Menofia
+209,10,Sadat City,Menofia
+210,10,Menouf,Menofia
+211,10,Sars El-Layan,Menofia
+212,10,Ashmon,Menofia
+213,10,Al Bagor,Menofia
+214,10,Quesna,Menofia
+215,10,Berkat El Saba,Menofia
+216,10,Tala,Menofia
+217,10,Al Shohada,Menofia
+218,11,Minya,Minya
+219,11,Minya El Gedida,Minya
+220,11,El Adwa,Minya
+221,11,Magagha,Minya
+222,11,Bani Mazar,Minya
+223,11,Mattay,Minya
+224,11,Samalut,Minya
+225,11,Madinat El Fekria,Minya
+226,11,Meloy,Minya
+227,11,Deir Mawas,Minya
+228,11,Abu Qurqas,Minya
+229,11,Ard Sultan,Minya
+230,12,Banha,Qaliubiya
+231,12,Qalyub,Qaliubiya
+232,12,Shubra Al Khaimah,Qaliubiya
+233,12,Al Qanater Charity,Qaliubiya
+234,12,Khanka,Qaliubiya
+235,12,Kafr Shukr,Qaliubiya
+236,12,Tukh,Qaliubiya
+237,12,Qaha,Qaliubiya
+238,12,Obour,Qaliubiya
+239,12,Khosous,Qaliubiya
+240,12,Shibin Al Qanater,Qaliubiya
+241,12,Mostorod,Qaliubiya
+242,13,El Kharga,New Valley
+243,13,Paris,New Valley
+244,13,Mout,New Valley
+245,13,Farafra,New Valley
+246,13,Balat,New Valley
+247,13,Dakhla,New Valley
+248,14,Suez,Suez
+249,14,Alganayen,Suez
+250,14,Ataqah,Suez
+251,14,Ain Sokhna,Suez
+252,14,Faysal,Suez
+253,15,Aswan,Aswan
+254,15,Aswan El Gedida,Aswan
+255,15,Drau,Aswan
+256,15,Kom Ombo,Aswan
+257,15,Nasr Al Nuba,Aswan
+258,15,Kalabsha,Aswan
+259,15,Edfu,Aswan
+260,15,Al-Radisiyah,Aswan
+261,15,Al Basilia,Aswan
+262,15,Al Sibaeia,Aswan
+263,15,Abo Simbl Al Siyahia,Aswan
+264,15,Marsa Alam,Aswan
+265,16,Assiut,Assiut
+266,16,Assiut El Gedida,Assiut
+267,16,Dayrout,Assiut
+268,16,Manfalut,Assiut
+269,16,Qusiya,Assiut
+270,16,Abnoub,Assiut
+271,16,Abu Tig,Assiut
+272,16,El Ghanaim,Assiut
+273,16,Sahel Selim,Assiut
+274,16,El Badari,Assiut
+275,16,Sidfa,Assiut
+276,17,Bani Sweif,Beni Suef
+277,17,Beni Suef El Gedida,Beni Suef
+278,17,Al Wasta,Beni Suef
+279,17,Naser,Beni Suef
+280,17,Ehnasia,Beni Suef
+281,17,beba,Beni Suef
+282,17,Fashn,Beni Suef
+283,17,Somasta,Beni Suef
+284,17,Alabbaseri,Beni Suef
+285,17,Mokbel,Beni Suef
+286,18,PorSaid,Port Said
+287,18,Port Fouad,Port Said
+288,18,Alarab,Port Said
+289,18,Zohour,Port Said
+290,18,Alsharq,Port Said
+291,18,Aldawahi,Port Said
+292,18,Almanakh,Port Said
+293,18,Mubarak,Port Said
+294,19,Damietta,Damietta
+295,19,New Damietta,Damietta
+296,19,Ras El Bar,Damietta
+297,19,Faraskour,Damietta
+298,19,Zarqa,Damietta
+299,19,alsaru,Damietta
+300,19,alruwda,Damietta
+301,19,Kafr El-Batikh,Damietta
+302,19,Azbet Al Burg,Damietta
+303,19,Meet Abou Ghalib,Damietta
+304,19,Kafr Saad,Damietta
+305,20,Zagazig,Sharkia
+306,20,Al Ashr Men Ramadan,Sharkia
+307,20,Minya Al Qamh,Sharkia
+308,20,Belbeis,Sharkia
+309,20,Mashtoul El Souq,Sharkia
+310,20,Qenaiat,Sharkia
+311,20,Abu Hammad,Sharkia
+312,20,El Qurain,Sharkia
+313,20,Hehia,Sharkia
+314,20,Abu Kabir,Sharkia
+315,20,Faccus,Sharkia
+316,20,El Salihia El Gedida,Sharkia
+317,20,Al Ibrahimiyah,Sharkia
+318,20,Deirb Negm,Sharkia
+319,20,Kafr Saqr,Sharkia
+320,20,Awlad Saqr,Sharkia
+321,20,Husseiniya,Sharkia
+322,20,san alhajar alqablia,Sharkia
+323,20,Manshayat Abu Omar,Sharkia
+324,21,Al Toor,South Sinai
+325,21,Sharm El-Shaikh,South Sinai
+326,21,Dahab,South Sinai
+327,21,Nuweiba,South Sinai
+328,21,Taba,South Sinai
+329,21,Saint Catherine,South Sinai
+330,21,Abu Redis,South Sinai
+331,21,Abu Zenaima,South Sinai
+332,21,Ras Sidr,South Sinai
+333,22,Kafr El Sheikh,Kafr Al sheikh
+334,22,Kafr El Sheikh Downtown,Kafr Al sheikh
+335,22,Desouq,Kafr Al sheikh
+336,22,Fooh,Kafr Al sheikh
+337,22,Metobas,Kafr Al sheikh
+338,22,Burg Al Burullus,Kafr Al sheikh
+339,22,Baltim,Kafr Al sheikh
+340,22,Masief Baltim,Kafr Al sheikh
+341,22,Hamol,Kafr Al sheikh
+342,22,Bella,Kafr Al sheikh
+343,22,Riyadh,Kafr Al sheikh
+344,22,Sidi Salm,Kafr Al sheikh
+345,22,Qellen,Kafr Al sheikh
+346,22,Sidi Ghazi,Kafr Al sheikh
+347,23,Marsa Matrouh,Matrouh
+348,23,El Hamam,Matrouh
+349,23,Alamein,Matrouh
+350,23,Dabaa,Matrouh
+351,23,Al-Nagila,Matrouh
+352,23,Sidi Brani,Matrouh
+353,23,Salloum,Matrouh
+354,23,Siwa,Matrouh
+355,23,Marina,Matrouh
+356,23,North Coast,Matrouh
+357,24,Luxor,Luxor
+358,24,New Luxor,Luxor
+359,24,Esna,Luxor
+360,24,New Tiba,Luxor
+361,24,Al ziynia,Luxor
+362,24,Al Bayadieh,Luxor
+363,24,Al Qarna,Luxor
+364,24,Armant,Luxor
+365,24,Al Tud,Luxor
+366,25,Qena,Qena
+367,25,New Qena,Qena
+368,25,Abu Tesht,Qena
+369,25,Nag Hammadi,Qena
+370,25,Deshna,Qena
+371,25,Alwaqf,Qena
+372,25,Qaft,Qena
+373,25,Naqada,Qena
+374,25,Farshout,Qena
+375,25,Quos,Qena
+376,26,Arish,North Sinai
+377,26,Sheikh Zowaid,North Sinai
+378,26,Nakhl,North Sinai
+379,26,Rafah,North Sinai
+380,26,Bir al-Abed,North Sinai
+381,26,Al Hasana,North Sinai
+382,27,Sohag,Sohag
+383,27,Sohag El Gedida,Sohag
+384,27,Akhmeem,Sohag
+385,27,Akhmim El Gedida,Sohag
+386,27,Albalina,Sohag
+387,27,El Maragha,Sohag
+388,27,almunsha'a,Sohag
+389,27,Dar AISalaam,Sohag
+390,27,Gerga,Sohag
+391,27,Jahina Al Gharbia,Sohag
+392,27,Saqilatuh,Sohag
+393,27,Tama,Sohag
+394,27,Tahta,Sohag
+395,27,Alkawthar,Sohag
