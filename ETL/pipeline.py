@@ -50,20 +50,18 @@ df[['Country', 'Governorate', 'City']] = None
 
 
 
+"""
+This loop processes each row in the DataFrame to update the 'Country', 'Governorate', and 'City' columns
+based on the information in the 'City_Country' column and the 'city_govern' DataFrame.
+
+1. It splits the 'City_Country' cell into a list of place names.
+2. Iterates through the place names to identify and populate 'Country', 'Governorate', and 'City' columns.
+3. It attempts to estimate missing 'Governorate' and 'City' information based on the available data.
+4. Removes rows where both 'City' and 'Governorate' are missing.
+"""
 # Iterate through each row in the DataFrame
 for index, row in df.iterrows():
-    """
-    This loop processes each row in the DataFrame to update the 'Country', 'Governorate', and 'City' columns
-    based on the information in the 'City_Country' column and the 'city_govern' DataFrame.
-    
-    1. It splits the 'City_Country' cell into a list of place names.
-    2. Iterates through the place names to identify and populate 'Country', 'Governorate', and 'City' columns.
-    3. It attempts to estimate missing 'Governorate' and 'City' information based on the available data.
-    4. Removes rows where both 'City' and 'Governorate' are missing.
-    """
     city_country = row['City_Country']
-
-
     # Split the 'City_Country' cell into a list of place names
     city_country = city_country.split(',')
 
@@ -94,6 +92,8 @@ for index, row in df.iterrows():
             city = df.at[index, 'City']
             estimated_governorate_filtered_df = city_govern[city_govern['city_name_en'] == city]
 
+            # If 'Governorate' is not None, estimate it based on 'City'
+            # else drop the row 
             if not estimated_governorate_filtered_df.empty:
                 df.at[index, 'Governorate'] = estimated_governorate_filtered_df['governorate_name_en'].values[0]
                 del city, estimated_governorate_filtered_df
