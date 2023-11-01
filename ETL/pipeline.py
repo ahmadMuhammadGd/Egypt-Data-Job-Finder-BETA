@@ -1,6 +1,6 @@
 import pandas as pd
-from ETL import Egypt_Governorates_and_cities as EGS
-from ETL import transform_jobs 
+import Egypt_Governorates_and_cities as EGS
+import transform_jobs 
 
 # Define URLs for the cities and governorates data
 print("downloading CSVs: in progress")

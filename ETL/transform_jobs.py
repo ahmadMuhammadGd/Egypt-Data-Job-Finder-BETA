@@ -5,7 +5,8 @@ from tqdm import tqdm
 
 def init_classefier():
     classifier = pipeline("zero-shot-classification",
-                        model="facebook/bart-large-mnli")
+                        model="facebook/bart-large-mnli",
+                        device=0)
     candidate_labels = ['Data Analyst', 'Data Scientist', 'Data Engineer']
 
     return classifier, candidate_labels
@@ -43,9 +44,10 @@ def trnsform_jobs(df):
                 df.drop(index, inplace=True)
             else:
                 df.at[index, 'Category_Title'] = hypothesis['labels'][0]
-                logs.at[index, 'Category_Title'] = hypothesis['labels'][0]
 
         logs.at[index, 'score'] = hypothesis['scores'][0]
+        logs.at[index, 'Category_Title'] = hypothesis['labels'][0]
+
     
     logs.to_csv('logs.csv')
 
