@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-
+from ETL import transform_jobs
 
 #catching data
 df = pd.read_csv('data\\transformed.csv')
-
+df = df[['Title', 'Class', 'Company', 'Job_Type', 'Job_Link', 'Country', 'Governorate', 'City']]
 
 print(len(df))
 
@@ -23,9 +23,9 @@ except:
 data_science_jobs = (df['Class'] == 'Data Scientist').sum()
 data_analysis_jobs = (df['Class'] == 'Data Analyst').sum()
 data_engineering_jobs = (df['Class'] == 'Data Engineer').sum()
-data_science_jobs = (df['Class'] == 'Data Entry').sum()
-data_analysis_jobs = (df['Class'] == 'Data Architect').sum()
-data_engineering_jobs = (df['Class'] == 'Business Analyst').sum()
+data_entry_jobs = (df['Class'] == 'Data Entry').sum()
+data_architect_jobs = (df['Class'] == 'Data Architect').sum()
+business_analysis_jobs = (df['Class'] == 'Business Analyst').sum()
 total_jobs = len(df)  # Total number of jobs in the DataFrame
 
 
@@ -60,7 +60,7 @@ country = st.sidebar.multiselect(
 governorate = st.sidebar.multiselect(
     'with governorate',
     options=df['Governorate'].unique(),
-    default=df['Governorate'].unique()
+    default="Giza"
     )
 
 city = st.sidebar.multiselect(
@@ -71,15 +71,22 @@ city = st.sidebar.multiselect(
 
 # Filter the DataFrame based on selected options
 filtered_df = df.query(
-    "Category_Title==@job_title & Country==@country & Governorate==@governorate & City==@city"
+    "Class==@job_title & Country==@country & Governorate==@governorate & City==@city"
 )
 
 
 
 a1, a2, a3 = st.columns(3)
+b1, b2, b3 = st.columns(3)
+
 a1.metric("Data science Jobs", data_science_jobs)
 a2.metric("Data analysis Jobs", data_analysis_jobs)
 a3.metric("Data engineering Jobs", data_engineering_jobs)
+
+
+a1.metric("Data entry Jobs", data_entry_jobs)
+a2.metric("Business analysis Jobs", business_analysis_jobs)
+a3.metric("Data Architect Jobs", data_architect_jobs)
 
 st.divider()
 

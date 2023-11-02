@@ -13,9 +13,6 @@ def init_classefier():
 
 
 
-def rearrange_df(df):
-    df["Class"]=None
-    df = df[['Title', 'Class', 'Company', 'Job_Type', 'Job_Link', 'Country', 'Governorate', 'City']]
 
 
 def transform_jobs(df):
@@ -33,8 +30,10 @@ def transform_jobs(df):
     rows with low classification scores (below 0.5).
     """
     
-    #re arrange df for better readability
+    df['Class'] = None
+
     logs = df.copy()
+
     logs['score'] = None
     initial = len(df)
 
