@@ -14,7 +14,8 @@ def init_classefier():
 
 
 def rearrange_df(df):
-    df = df[['Title', 'Category_Title', 'Company', 'Job_Type', 'Job_Link', 'Country', 'Governorate', 'City']]
+    df["Class"]=None
+    df = df[['Title', 'Class', 'Company', 'Job_Type', 'Job_Link', 'Country', 'Governorate', 'City']]
 
 
 def transform_jobs(df):
@@ -33,7 +34,6 @@ def transform_jobs(df):
     """
     
     #re arrange df for better readability
-    rearrange_df(df)
     logs = df.copy()
     logs['score'] = None
     initial = len(df)
