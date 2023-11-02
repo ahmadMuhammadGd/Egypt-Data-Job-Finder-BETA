@@ -13,6 +13,10 @@ def init_classefier():
 
 
 
+def rearrange_df(df):
+    df = df[['Title', 'Category_Title', 'Company', 'Job_Type', 'Job_Link', 'Country', 'Governorate', 'City']]
+
+
 def transform_jobs(df):
     """
     Transforms a DataFrame by classifying job titles and adding a 'Category_Title' column.
@@ -27,6 +31,9 @@ def transform_jobs(df):
     category label to a new 'Category_Title' column. It also removes rows with empty job titles and
     rows with low classification scores (below 0.5).
     """
+    
+    #re arrange df for better readability
+    rearrange_df(df)
     logs = df.copy()
     logs['score'] = None
     initial = len(df)
@@ -43,18 +50,19 @@ def transform_jobs(df):
                 # Drop the row if the condition is met
                 df.drop(index, inplace=True)
             else:
-                df.at[index, 'Category_Title'] = hypothesis['labels'][0]
+                df.at[index, 'Class'] = hypothesis['labels'][0]
 
         logs.at[index, 'score'] = hypothesis['scores'][0]
-        logs.at[index, 'Category_Title'] = hypothesis['labels'][0]
+        logs.at[index, 'Class'] = hypothesis['labels'][0]
 
     
     logs.to_csv('logs.csv')
 
     if initial == len(logs):
-        print('everything is well documented')
+        print('everything is well recorder')
     else:
         print('something went wrong during the process')
+
 
 
     return df

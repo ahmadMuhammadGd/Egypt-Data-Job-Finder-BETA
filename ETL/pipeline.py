@@ -25,13 +25,18 @@ city_govern = pd.read_csv('data\\city_govern.csv')
 
 '''
 try:
-    city_govern.drop(['Unnamed: 0', 'id'], axis=1, inplace=True)
+    city_govern.drop(['Unnamed: 0'], axis=1, inplace=True)
 except KeyError:
     print('id col at city_govern isn\'t found')
 
 
 try:
-    df.drop(['Unnamed: 0', 'details', 'day_posted'], axis=1, inplace=True)
+    city_govern.drop(['id'], axis=1, inplace=True)
+except KeyError:
+    print('id col at city_govern isn\'t found')
+
+try:
+    df.drop(['Unnamed: 0', 'details', 'day_posted', 'job_Link'], axis=1, inplace=True)
 except KeyError:
     print("a col or set of col from ['Unnamed: 0', 'details', 'day_posted'] aren\'t found")
 
