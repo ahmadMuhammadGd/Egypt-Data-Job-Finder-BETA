@@ -7,13 +7,13 @@ def init_classefier():
     classifier = pipeline("zero-shot-classification",
                         model="facebook/bart-large-mnli",
                         device=0)
-    candidate_labels = ['Data Analyst', 'Data Scientist', 'Data Engineer']
+    candidate_labels = ['Data Analyst', 'Data Scientist', 'Data Engineer', 'Data Entry', 'Data Architect']
 
     return classifier, candidate_labels
 
 
 
-def trnsform_jobs(df):
+def transform_jobs(df):
     """
     Transforms a DataFrame by classifying job titles and adding a 'Category_Title' column.
 
