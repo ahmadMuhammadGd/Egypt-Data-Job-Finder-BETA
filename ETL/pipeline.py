@@ -113,6 +113,6 @@ print('\n\n\n\n', df['Governorate'].unique())
 
 
 # transforming jobs
-df = transform_jobs.trnsform_jobs(df)
+df = transform_jobs.transform_jobs(df)
 
 df.to_csv('data\\transformed.csv')
