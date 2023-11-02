@@ -7,7 +7,7 @@ def init_classefier():
     classifier = pipeline("zero-shot-classification",
                         model="facebook/bart-large-mnli",
                         device=0)
-    candidate_labels = ['Data Analyst', 'Data Scientist', 'Data Engineer', 'Data Entry', 'Data Architect']
+    candidate_labels = ['Data Analyst', 'Data Scientist', 'Data Engineer', 'Data Entry', 'Data Architect', 'Business Analyst']
 
     return classifier, candidate_labels
 
