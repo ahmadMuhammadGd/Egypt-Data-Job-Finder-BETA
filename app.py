@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from ETL import transform_jobs
 
 #catching data
 df = pd.read_csv('data\\transformed.csv')
@@ -24,7 +23,6 @@ data_science_jobs = (df['Class'] == 'Data Scientist').sum()
 data_analysis_jobs = (df['Class'] == 'Data Analyst').sum()
 data_engineering_jobs = (df['Class'] == 'Data Engineer').sum()
 data_entry_jobs = (df['Class'] == 'Data Entry').sum()
-data_architect_jobs = (df['Class'] == 'Data Architect').sum()
 business_analysis_jobs = (df['Class'] == 'Business Analyst').sum()
 total_jobs = len(df)  # Total number of jobs in the DataFrame
 
@@ -86,7 +84,7 @@ a3.metric("Data engineering Jobs", data_engineering_jobs)
 
 a1.metric("Data entry Jobs", data_entry_jobs)
 a2.metric("Business analysis Jobs", business_analysis_jobs)
-a3.metric("Data Architect Jobs", data_architect_jobs)
+#a3.metric("Data Architect Jobs", data_architect_jobs)
 
 st.divider()
 

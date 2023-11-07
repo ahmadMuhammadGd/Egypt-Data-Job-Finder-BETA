@@ -1,0 +1,7 @@
+{
+    "Data Analyst": ["financial", "analysis", "analyst", "data processing", "statistics", "python", "SQL", "Excel", "data visualization"],
+    "Data Scientist": ["science", "scientist", "machine", "learning", "Python", "big data", "data mining"],
+    "Data Engineer": ["engineer", "engineering", "AWS", "Postgres", "data modeling", "ETL", "database", "Hadoop", "spark", "modeler"],
+    "Business Analyst": ["business", "intelligent", "engineer", "BI", "developer", "reporting", "data visualization", "tableau", "modeler"],
+    "Data Entry": ["entry", "input", "validation", "accuracy", "transcription", "labeler", "clerk"]
+}

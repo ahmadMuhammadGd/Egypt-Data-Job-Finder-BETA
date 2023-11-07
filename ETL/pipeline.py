@@ -1,13 +1,17 @@
 import pandas as pd
 import Egypt_Governorates_and_cities as EGS
-import transform_jobs 
+#import transform_jobs 
+
+import sys
+sys.path.append('..\\tools')
+import job_classifier
 
 # Define URLs for the cities and governorates data
 print("downloading CSVs: in progress")
 
 jobs_sheeet_id = '1r6K1HW2RiahoEMTOBcNkqs-9pulLt3Ev'
 df = pd.read_csv(f"https://docs.google.com/spreadsheets/d/{jobs_sheeet_id}/export?format=csv", encoding='utf-8')
-df.to_csv('.\\data\\df.csv')
+df.to_csv('..\\data\\df.csv', index=False)
 
 cities_url = "https://raw.githubusercontent.com/Tech-Labs/egypt-governorates-and-cities-db/master/cities.csv"
 governorates_url = "https://raw.githubusercontent.com/Tech-Labs/egypt-governorates-and-cities-db/master/governorates.csv"
@@ -15,7 +19,7 @@ governorates_url = "https://raw.githubusercontent.com/Tech-Labs/egypt-governorat
 cities = EGS.get_cities(cities_url)
 governorates = EGS.get_governorates(governorates_url)
 city_govern = cities.merge(governorates, on='id', how='inner')
-city_govern.to_csv('.\\data\\city_govern.csv')
+city_govern.to_csv('..\\data\\city_govern.csv', index=False)
 
 print("downloading CSVs: Done")
 
@@ -72,6 +76,7 @@ for index, row in df.iterrows():
 
     # Iterate through the place names in the list
     for place in city_country:
+        place = place.strip()
         transformed_place = place.title().strip()  # Transform the place name to title case
         
         # Check if the transformed place is a governorate name in the 'city_govern' DataFrame
@@ -118,6 +123,6 @@ print('\n\n\n\n', df['Governorate'].unique())
 
 
 # transforming jobs
-df = transform_jobs.transform_jobs(df)
+job_classifier.classify_rows(data_frame=df, column_name='Title')
 
-df.to_csv('data\\transformed.csv')
+df.to_csv('..\\data\\transformed.csv', index=False)
